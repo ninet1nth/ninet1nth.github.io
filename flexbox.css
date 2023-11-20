@@ -1,0 +1,75 @@
+/* header */
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.header-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-logo{
+    /* включаем flexbox */
+    display: flex;
+    /* направление расположения блоков слева направо */
+    flex-direction: row; 
+    /* меняем направление расположения блоков относительно оси ОУ */
+    align-items: center;
+    /* меняем размер блока с лого и названием относительно других элементов */
+    flex-grow: 1;
+}
+.logo-img{
+    margin-right: 40px;
+}
+.header-menu{
+    flex-grow: 3;
+}
+.cards-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* footer */
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.network{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: flex-end;
+}
+.menu-item:hover{
+    background: rgb(219, 9, 44);
+    
+    
+
+}
+.footer-logo{
+    
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+}
+.footer-search{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+.input-search{
+    height:40px ;
+    flex-grow: 3;
+    margin-right: 20px;
+    border-radius: 20px;
+    
+}
+.button-search{
+    height: 50px;
+    flex-grow: 3;
+    border-radius: 15px;
+    text-transform: uppercase;
+}

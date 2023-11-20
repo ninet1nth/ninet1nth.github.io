@@ -1,0 +1,107 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    max-width: 1540px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* header */
+.header{
+    width: 100%;
+    color: black;
+    padding: 20px;
+    background: #a1a1a1;
+    box-sizing: border-box;
+}
+.menu-item{
+    list-style: none;
+
+}
+.menu-link{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.logo-title{
+    /* padding: 15px; */
+    /* margin: 15px; */
+    text-align: center;
+}
+.header-logo{
+    text-align: center;
+}
+.menu{
+    text-align: center;
+}
+.banner-title, .banner-description{
+text-align: center;
+}
+
+.banner-title{
+    font-size: 48px;
+}
+.banner-section{
+    padding: 150px 0;
+    background: url(image/fon3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* cards */
+.cards-section{
+    padding: 50px 0;
+
+}
+.cards-title, .cards-description{
+color: #151c39;
+text-align: center;
+}
+.card{
+    width: 25%;
+    padding: 25px;
+    margin-top: 25px;
+    background: white;
+    box-shadow: 0px 2px 7px 0px #7e5596;
+    display: inline-block;
+}
+.card-link{
+    text-decoration: none;
+    color: #7e5596;
+    
+}
+.card-button{
+    text-align: center;
+    background: #a1a1a1;
+    padding: 10px 70px ;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.card-title, .card-text{
+    margin-bottom: 10px;
+    
+}
+
+
+.footer{
+background: url(image/fon.jpg);
+background-size: cover;
+padding: 100px 0;
+}
+.copyright{
+    color: white;
+}
+/* .cards:hover{
+    background: rgb(209, 205, 205);
+   
+} */
+.card:hover{
+    background:#7e5596;
+    cursor: pointer;
+}
+.card-button:hover{
+    background: #48a063;
+}
